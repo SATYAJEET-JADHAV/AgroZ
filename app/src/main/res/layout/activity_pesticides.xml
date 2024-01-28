@@ -1,0 +1,3451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="6"
+    android:padding="5dp"
+    android:background="@drawable/bg"
+    tools:context=".Pesticides">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="acephate"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common Name \nOf the Pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Dosage/ha"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Waiting Period \n(days) "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm) "
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation\n(gm/ml)"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution in\nWater (Litre)"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Cotten"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Jassids Boll Worms" />
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="292\n584 " />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="390 \n780 " />
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-1000 \n500-1000" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="15 " />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Safflower"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Aphids" />
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="584" />
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="780" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-1000" />
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="15" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Rice"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Stem Borer,\n Leaf Folder,\nPlant Hoppers,\nGreen Leaf Hopper" />
+
+                        <TextView
+                            android:id="@+id/textView46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="500-750" />
+
+                        <TextView
+                            android:id="@+id/textView45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="666-1000" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="300-500" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="15" />
+
+                    </TableRow>
+                </TableLayout>
+
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACETAMIPRID 20% SP"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView101"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView102"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common Name \nOf the Pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView103"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Dosage/ha"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView104"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Waiting Period \n(days) "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView105"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView106"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textView107"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm) "
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView108"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation\n(gm/ml)"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView109"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution in\nWater (Litre)"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView110"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView35."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Cotten"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView34."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Aphids \nJassids \nWhiteflies " />
+
+                        <TextView
+                            android:id="@+id/textView33."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="10\n10\n20 " />
+
+                        <TextView
+                            android:id="@+id/textView32."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="50\n50\n100" />
+
+                        <TextView
+                            android:id="@+id/textView31."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-600" />
+
+                        <TextView
+                            android:id="@+id/textView30."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="15 " />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView42."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Cabbage"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView41."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Aphids" />
+
+                        <TextView
+                            android:id="@+id/textView40."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="15" />
+
+                        <TextView
+                            android:id="@+id/textView39."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="75" />
+
+                        <TextView
+                            android:id="@+id/textView37."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-600" />
+
+                        <TextView
+                            android:id="@+id/textView36."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="7" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView48.."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Okra"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView47.."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Aphids" />
+
+                        <TextView
+                            android:id="@+id/textView46.."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="15" />
+
+                        <TextView
+                            android:id="@+id/textView45.."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="75" />
+
+                        <TextView
+                            android:id="@+id/textView44.."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-600" />
+
+                        <TextView
+                            android:id="@+id/textView43..."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="3" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView48.1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Chilli"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView47.1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Thrips" />
+
+                        <TextView
+                            android:id="@+id/textView46.1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="10-20" />
+
+                        <TextView
+                            android:id="@+id/textView45.1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="50-100" />
+
+                        <TextView
+                            android:id="@+id/textView44.1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-600" />
+
+                        <TextView
+                            android:id="@+id/textView43..1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="3" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView48."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Rise"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView47."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="BPH" />
+
+                        <TextView
+                            android:id="@+id/textView46."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="10-20" />
+
+                        <TextView
+                            android:id="@+id/textView45."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="50-100" />
+
+                        <TextView
+                            android:id="@+id/textView44."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-600" />
+
+                        <TextView
+                            android:id="@+id/textView43.."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="7" />
+
+                    </TableRow>
+                </TableLayout>
+
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView4111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ALPHACYPERMETHRIN 10% EC"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView231"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView221"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common Name \nOf the Pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView201"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Dosage/ha"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView181"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Waiting Period \n(days) "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView291"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView281"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textView271"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm) "
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView216"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation\n(gm/ml)"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2115"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution in\nWater (Litre)"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView35111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Cotten"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView311114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Boll Worms" />
+
+                        <TextView
+                            android:id="@+id/textView311111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="15-25 " />
+
+                        <TextView
+                            android:id="@+id/textView32111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="165-280" />
+
+                        <TextView
+                            android:id="@+id/textView311111111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="600-1000" />
+
+                        <TextView
+                            android:id="@+id/textView3111120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="7" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView41110"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Alphacypermethrin 10% SC "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView2301"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView20021"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common Name \nOf the Pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView20001"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Dosage/ha"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView1801"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Waiting Period \n(days) "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView2912"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2821"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textView22271"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm) "
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView222216"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation\n(gm/ml)"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2112225"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution in\nWater (Litre)"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView212211"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView351511"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Cotten"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView3115114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="BollWorms" />
+
+                        <TextView
+                            android:id="@+id/textView31157111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="25-30 " />
+
+                        <TextView
+                            android:id="@+id/textView352111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="250-300" />
+
+                        <TextView
+                            android:id="@+id/textView3111118111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-1000" />
+
+                        <TextView
+                            android:id="@+id/textView31119120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="10" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALUMINUM PHOSPHIDE 56% 3 g tab, 10g pouch"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView253"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Name of\nCommodity"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView522"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common name \nof the pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView520"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="Dosage"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView158"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Exposure Period "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView14158"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Aeration Waiting\nPeriod"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView3445"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Stored Whole \nCereals and \nSeed \nGrains \nMillet \nPulses \nDry Fruits, Nuts \nSpices and Oil \nSeeds" />
+
+                        <TextView
+                            android:id="@+id/textView34444"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Rice Weevil (S.O) \nLesser Grain Borer, \nKhapra Beetle (T.g), \nRust Red Flour \nBeetle, Saw \nToothed Grain \nBeetle , Caddlle \nBeetle, Drug Store \nBeetle , Cigarette \nBeetle , Pulse \nBeetle" />
+
+                        <TextView
+                            android:id="@+id/textView44433"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="3 tablets\n(3gm) Per\nton or 150\ngm/100m3 \nOR \n10 gm \nPouch Per \nton of \nCommodity \nor 150 gm/ \n100 m3." />
+
+                        <TextView
+                            android:id="@+id/textVi4ew32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Minimum 5 days \n(S.O.) 7 Days \n(T.g.) " />
+
+                        <TextView
+                            android:id="@+id/textView318"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="One hour of Partial \naeration in case non-\npolyethylene packed \ncommodities allowed \nby 6-8 hrs of full \naeration. For \npolyethylene packed \ncommodities \nminimum aeration \nperiod is 48 hrs. The \nwaiting period for the \nrelease of stock is 48\nhrs in both. The cases\ngen recommendation \nfor bag stock 15 days" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textViewa42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Mild Products :\nDeoiled Cakes,\nRice Bran Flour,\nGrain Animal and\nPoultry Food\nSplit Pulses\n(Dal) and other\nProcessed Food" />
+
+                        <TextView
+                            android:id="@+id/textViewa41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Long Headed Floor\nBeetle, Coffee\nBorer, Dried Fruit\nBeetle, Flat Grain\nBeetle, Carpet\nBeetle" />
+
+                        <TextView
+                            android:id="@+id/textViewaa40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="3 tablets/10\n(gm) per ton\nor 225\ngm/100m3" />
+
+                        <TextView
+                            android:id="@+id/textViewaaa39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="5 days" />
+
+                        <TextView
+                            android:id="@+id/textViewaaa37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Aeration is waiting \nperiod 7 days to be \nchecked PH3 \ndetector strips." />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView408"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Empty Godowns\nand Sheds" />
+
+                        <TextView
+                            android:id="@+id/textView407"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Rice Moth, Almond\nMoth, Mites, Fruit\nFly, Granary\nWeevil, Caddle or\nFlour worm, Red\nFlour Beetle, Indian\nMeal Moth, Larger\ncabinet Moth,\nWheat Kernel\nDamage in the field\nCockroach." />
+
+                        <TextView
+                            android:id="@+id/textView406"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="14\ntablets/1000\nCft. or 150\ngm/100m3\nor 4 pouch\n10 gms\neach/1000\nCFT and or\n150\ngm/100m3" />
+
+                        <TextView
+                            android:id="@+id/textView405"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="72 hrs" />
+
+                        <TextView
+                            android:id="@+id/textView404"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Aeration Period 24 \nhrs detectors trips or \nphosphine detect \ntubes should be \nused in the premises \nto signal safety of \natmosphere." />
+
+                    </TableRow>
+                </TableLayout>
+
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView004"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALUMINUM PHOSPHIDE 15%, 12g tablet"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView2573"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Name of\nCommodity"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView5272"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common name \nof the pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5270"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="Dosage"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView1758"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Exposure Period "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView174158"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Aeration Waiting\nPeriod"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView34745"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Stored whole cereals \nand seed grains." />
+
+                        <TextView
+                            android:id="@+id/textView347444"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Rice weevil, Rust red \nflower beetle" />
+
+                        <TextView
+                            android:id="@+id/textView444373"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="1 tablet (12G) \nper ton or 600 \ng/ 100 m3" />
+
+                        <TextView
+                            android:id="@+id/textVi4ew732"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Non polythene \npacked \ncommodities: \nPartial-1 hour. \nFull-(6-8) hour. \nPolythene \nPacked \ncommodities: \nMinimum 48 hrs. " />
+
+                        <TextView
+                            android:id="@+id/textView3178"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="7-14" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textViewa462"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Millets, pulses, dry \nfruits, nuts, spices and\noilseeds (Air tight \ncover or godowns) " />
+
+                        <TextView
+                            android:id="@+id/textViewa461"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Lesser Grain Borer, \nKhapra Beetle, Saw \nToothed Grain Beetle , \nRice Moth, Almond \nMoth" />
+
+                        <TextView
+                            android:id="@+id/textViewaa460"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="900 g/100 m3" />
+
+                        <TextView
+                            android:id="@+id/textViewaaa369"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textViewaaa367"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="5" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView4088"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Milledd products: De-\noiled cakes, rice bran" />
+
+                        <TextView
+                            android:id="@+id/textView4087"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Rust red flower \nbeetle " />
+
+                        <TextView
+                            android:id="@+id/textView4086"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="3 tablets / ton" />
+
+                        <TextView
+                            android:id="@+id/textView4085"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="48 hrs " />
+
+                        <TextView
+                            android:id="@+id/textView4804"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="5" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textViews4088"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Flour suji meals and \nCrushed grain \n(animal and poultry \nfeed) split pulses \n(dals) " />
+
+                        <TextView
+                            android:id="@+id/textViews4087"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Saw Toothed Grain \nBeetle , Rice Moth, \nAlmond Moth, long \nheaded flour \nbeetle and \nmites " />
+
+                        <TextView
+                            android:id="@+id/textViews4086"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="900 g/100 m3" />
+
+                        <TextView
+                            android:id="@+id/textViews4085"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="48 hrs " />
+
+                        <TextView
+                            android:id="@+id/textViews4804"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="3" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textViews40a88"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Other processed\nfood and Empty \nGodowns and \nSheds (under air \ntight condition)"
+                            android:textStyle="bold"
+                            android:textColor="#000000"/>
+
+                        <TextView
+                            android:id="@+id/textViews40a87"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="All insect pests."
+                            android:textStyle="bold"
+                            android:textColor="#000000"/>
+
+                        <TextView
+                            android:id="@+id/textViews4a086"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="14 tablets\n/1000 tons or\n600 g/1000m3"
+                            android:textStyle="bold"
+                            android:textColor="#000000"/>
+
+                        <TextView
+                            android:id="@+id/textViews40a85"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="48 hrs\n24 hrs"
+                            android:textStyle="bold"
+                            android:textColor="#000000"/>
+
+                        <TextView
+                            android:id="@+id/textViews480a4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textColor="#000000"/>
+
+                    </TableRow>
+                </TableLayout>
+
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView411a10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Aluminium phosphide 77.5% Gr"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView2391"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Commodity"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView200821"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Insect"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView200013"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="Dose/m3"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView18001"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Exposure Period"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView180001"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Waiting Period"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView35001511"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Stored Grain " />
+
+                        <TextView
+                            android:id="@+id/textView31151104"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Red rust \nFlour beetle \nLesser grain \nborer \nRice Weevil \nKhapra beetle" />
+
+                        <TextView
+                            android:id="@+id/textView311507111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="3.35 gm" />
+
+                        <TextView
+                            android:id="@+id/textView3502111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="7 days " />
+
+                        <TextView
+                            android:id="@+id/textView31111018111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="24hours " />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView411210"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Barium carbonate"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView23291"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Places "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView2002821"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Name of the pest "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2200013"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="Dose a.i."
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView3a5001511"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Godowns \nResidential Premises \nPublic halls " />
+
+                        <TextView
+                            android:id="@+id/textView31a151104"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Rats, Mice,\n and Field \nrodents " />
+
+                        <TextView
+                            android:id="@+id/textView3115a07111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="10-20% Technical \nmaterial to be \nmixed with bait " />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView4aa111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Beta Cyfluthrin 2.45% SC"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView23qq1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView2q21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common\nname of \nthe pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewq201"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViqew1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution\nin Water\n(Litre)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewq1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Interval between\nlast application\nto harvest (days)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textViewqw35111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Cotten" />
+
+                        <TextView
+                            android:id="@+id/textView3w11114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Bollworm" />
+
+                        <TextView
+                            android:id="@+id/textView311w111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="12.5-18.75" />
+
+                        <TextView
+                            android:id="@+id/textView32w111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="500-750" />
+
+                        <TextView
+                            android:id="@+id/textView3111w11111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500-1000 " />
+
+                        <TextView
+                            android:id="@+id/textView3111w120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="20" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViewv4111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Beauveria bassiana 1.15% W.P."
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVieaw23qq1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textVieaw2q21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common\nname of \nthe pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViaewq201"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewa1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViqaew1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution\nin Water\n(Litre)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textVieawq1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Interval between\nlast application\nto harvest (days)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVoiew35111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Cotten"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewo311114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="BollWorms" />
+
+                        <TextView
+                            android:id="@+id/textViewo311111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/textoView32111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="2800" />
+
+                        <TextView
+                            android:id="@+id/textViewo311111111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="400" />
+
+                        <TextView
+                            android:id="@+id/textVioew3111120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="-" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViewv41f11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Beauveria bassiana 1% WP \nStrain No : NBRI - 9947"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/texvtVieaw23qq1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textVievaw2q21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common\nname of \nthe pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViaewqv201"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewab1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViqbaew1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution\nin Water\n(Litre)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViebawq1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Interval between\nlast application\nto harvest (days)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVoiewf35111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Chick pea " />
+
+                        <TextView
+                            android:id="@+id/textViedwo311114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Pod borer" />
+
+                        <TextView
+                            android:id="@+id/textViewo3e11111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/textoVdiew32111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="3 kg." />
+
+                        <TextView
+                            android:id="@+id/textVisewo311111111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500" />
+
+                        <TextView
+                            android:id="@+id/textVioew3s111120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="-" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViewv41f1w1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="(a) International Panaacea Ltd. \nStrain No. IPL/BB/MI/01 "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/texvtVieawww23qq1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textVievawj2q21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common\nname of \nthe pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViaewqv2j01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewab1q8j1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViqbaew1jq81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution\nin Water\n(Litre)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViebawq1qj81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Interval between\nlast application\nto harvest (days)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVoiewf351g11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Okra" />
+
+                        <TextView
+                            android:id="@+id/textViedwo3111g14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Fruit borer / \nspotted \nbollworm" />
+
+                        <TextView
+                            android:id="@+id/textViewo3e11g111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="-" />
+
+                        <TextView
+                            android:id="@+id/textoVdiegw32111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="3.75-5.0 kg" />
+
+                        <TextView
+                            android:id="@+id/textVisewo311g111111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="400-500" />
+
+                        <TextView
+                            android:id="@+id/textVioew3s1g11120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="-" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViewv41jf11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Benfuracarb 3% GR"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/texvtVieawl23qq1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textVievaw2ql21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common\nname of \nthe pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViaewqlv201"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewabl1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViqbaelw1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution\nin Water\n(Litre)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViebawlq1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Interval between\nlast application\nto harvest (days)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVoiewf3l5111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Rice" />
+
+                        <TextView
+                            android:id="@+id/textViedwo3l11114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Stem borer \nLeaf folder \nBPH" />
+
+                        <TextView
+                            android:id="@+id/textViewo3el11111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="1000" />
+
+                        <TextView
+                            android:id="@+id/textoVdiew32l111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="33000" />
+
+                        <TextView
+                            android:id="@+id/textVisewo311l111111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textVioew3s11l1120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="20" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViewv41bf11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Benfuracarb 40% EC"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/texvtVieaw23fqq1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textVievawf2q21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common\nname of \nthe pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViaewfqv201"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewabf1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViqbaefw1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution\nin Water\n(Litre)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViebawqfq81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Interval between\nlast application\nto harvest (days)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVoiewf35s111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Red gram"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViedwo311s114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Pod borer" />
+
+                        <TextView
+                            android:id="@+id/textViewo3e11s111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="1000" />
+
+                        <TextView
+                            android:id="@+id/textoVdiew32s111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="2500" />
+
+                        <TextView
+                            android:id="@+id/textVisewo311s111111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="500" />
+
+                        <TextView
+                            android:id="@+id/textVioew3ss111120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="20" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViewv4gg1f11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Bifenazate 50% WP"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/texvtVieaw23hhqq1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textVievaw2hhq21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common\nname of \nthe pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViaewqvhh201"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="a.i (gm)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewabhh1q81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Formulation"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViqbaew1hhq81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Dilution\nin Water\n(Litre)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViebawq1hhq81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Interval between\nlast application\nto harvest (days)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVoiewfgg35111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Rose"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViedwo3gg11114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Two Spotted Mite \n(Tetranychusurticae)" />
+
+                        <TextView
+                            android:id="@+id/textViewo3e11ggg111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="375" />
+
+                        <TextView
+                            android:id="@+id/textoVdiew321gg11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="750" />
+
+                        <TextView
+                            android:id="@+id/textVisewo3111gg11111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="3000" />
+
+                        <TextView
+                            android:id="@+id/textVioew3s11gg1120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Not applicable " />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textVwwwiew4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bifenthrin 2.5% EC"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textVwawwiew4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abc" />
+
+
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVierw23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Use"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textVriew22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Method of application"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textVier20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="Dosage(a.i.)"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewr8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Dilution"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textViegw29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Plywood" />
+
+                        <TextView
+                            android:id="@+id/textVixew28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Glue Line Poisoning\n\n\nDipping" />
+
+                        <TextView
+                            android:id="@+id/textVixew27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="10g/cubic meter of /nwood \n\n0.025% Solution"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textVixew26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="400ml formulation per \ncubic meter of wood \n\nMix 1 lit of formulation in \n99 lit of water to make \n0.025% Solution"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVziew35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Veneer" />
+
+                        <TextView
+                            android:id="@+id/textVizew34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Dipping" />
+
+                        <TextView
+                            android:id="@+id/textVizew33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="0.025% Solution " />
+
+                        <TextView
+                            android:id="@+id/textViezw32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Mix 1 lit of formulation" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textaView42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textViaaew41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textViewaaa40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/textViewa39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="in 99 lit of water to make \b0.025% Solution " />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVmiew48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Wood" />
+
+                        <TextView
+                            android:id="@+id/textmView47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Dipping/\nbrushing " />
+
+                        <TextView
+                            android:id="@+id/textVimew46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="0.025% Solution " />
+
+                        <TextView
+                            android:id="@+id/textViemw45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Mix 1 lit of \nformulation in 99 \nlit of water to make \n0.025% Solution" />
+
+                    </TableRow>
+                </TableLayout>
+
+
+            </HorizontalScrollView>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViezzw4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ethylene Dichloride + Carbon Tetrachloride 3:1"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVnniew35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Crop"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViennw34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Common \nname of \nthe pest"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/textViennw33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="Condi\ntions"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/textVnniew32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="Weight of \nvol. "
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/textVinnew31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="Exposure \nperiod "
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/textVinnew30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Permissible \nconc.\nin air(ppm) "
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/textVnnsew35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="7"
+                            android:padding="5dp"
+                            android:text="Aeration/ \nWaiting "
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVieaw42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Stored\nwhole \ncereals \nMillets \nPulses and\nseed \nGrains " />
+
+                        <TextView
+                            android:id="@+id/textVieawa41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Rice weevil\nLesser grain \nBorer \nKhapra \nBeetle \nRust red flour \nbeetle \nPulse \nbeetle Dried \nfruit Beetle" />
+
+                        <TextView
+                            android:id="@+id/textViewa40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="Air \ntight \ncover" />
+
+                        <TextView
+                            android:id="@+id/textVaiew39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="300-400gm/m3\n(230-307 ml)" />
+
+                        <TextView
+                            android:id="@+id/textViaew37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="48-72 hr.\nfor cover \nfumigation " />
+
+                        <TextView
+                            android:id="@+id/textView3a6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="10 ppm" />
+
+                        <TextView
+                            android:id="@+id/textViecw3a6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="7"
+                            android:padding="5dp"
+                            android:text="Partial aeration for\nat least 1 hr. \nfollowed \nby 24 hr. \ncomplete\naeration waiting \nperiod of 24 hr. " />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textVievw48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="5dp"
+                            android:text="Godown \nfumigation " />
+
+                        <TextView
+                            android:id="@+id/textViewv47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="5dp"
+                            android:text="Do" />
+
+                        <TextView
+                            android:id="@+id/textVivew46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:padding="5dp"
+                            android:text="Do" />
+
+                        <TextView
+                            android:id="@+id/tvextView45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="4"
+                            android:padding="5dp"
+                            android:text="150 gm/m3 " />
+
+                        <TextView
+                            android:id="@+id/texvtView44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="5"
+                            android:padding="5dp"
+                            android:text="7 days" />
+
+                        <TextView
+                            android:id="@+id/textvView43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="6"
+                            android:padding="5dp"
+                            android:text="Do" />
+
+                        <TextView
+                            android:id="@+id/textvVciew43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="7"
+                            android:padding="5dp"
+                            android:text="Partial aeration \nfor at least 1 hr. \nfollowed by 24 \nhr. complete \naeration waiting \nperiod of 24 hr. " />
+
+                    </TableRow>
+                </TableLayout>
+
+
+            </HorizontalScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</TableLayout>
